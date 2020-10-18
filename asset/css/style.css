@@ -10,17 +10,34 @@ body {
   background: #FEFBEC;
 }
 
+.orange_button {
+}
+
 /* header */
 header {
   height: 796px;
   width: 1096px;
   margin: auto;
+
 }
 
 .nav_top, .nav_main {
   height: 75px;
   width: 100%;
   background: #F4F9FD;
+}
+
+.language_option, .log_in {
+  height: 34px;
+  color: #32495B;
+  margin-top: 20px;
+}
+
+.language_option {
+}
+
+.log_in {
+  text-align: right;
 }
 
 .hero_container {
@@ -72,3 +89,12 @@ footer {
 
 }
 /* /footer */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float_left {
+  float: left;
