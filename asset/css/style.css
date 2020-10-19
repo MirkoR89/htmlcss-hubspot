@@ -174,7 +174,7 @@ main {
 /* section_center */
 .section_center {
   width: 1096px;
-  height: 1205px;
+  height: 1403px;
   margin: auto;
 }
 
@@ -196,6 +196,37 @@ main {
   font-weight: 600;
   font-size: 13px;
   padding: 33px 170px;
+}
+
+.orizontal_box {
+  height: 318px;
+  background: white;
+}
+
+.icon_button {
+  height: 100%;
+  width: 318px;
+}
+
+.icon_button img {
+  height: 93px;
+  width: 128px;
+}
+
+.icon_button span {
+}
+
+.vertical_box {
+  height: 610px;
+  width: 335px;
+  background: white;
+  margin: 45px 0;
+}
+
+.center_box {
+  margin-left: 45px;
+  margin-right: 45px;
+
 }
 /* /section_center */
 
