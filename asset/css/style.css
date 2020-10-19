@@ -26,26 +26,18 @@ body {
 /* /Utility */
 
 /* header */
-header {
-  height: 796px;
-  width: 1096px;
-  margin: auto;
-}
-
-/* .bg_nav_top {
-  width: 1566px;
-  height: 75px;
-  margin: auto;
-} */
-
 /* nav_bar */
 .nav_top, .nav_main {
+  margin: auto;
   height: 75px;
   width: 1096px;
   background: #F4F9FD;
 }
 
-.nav_top {
+.bg_nav_top {
+  width: 1566px;
+  margin: auto;
+  background: #F4F9FD;
   border-bottom: 2px solid #96A4AF;
 }
 
@@ -111,19 +103,28 @@ header {
 /* /nav_bar */
 
 /* hero_container */
-.hero_container {
+
+.bg_hero_color {
   height: 646px;
-  width: 100%;
+  width: 1566px;
+  background: #FFF1EE;
+  margin: 0 auto;
+}
+
+.bg_hero {
+  height: 646px;
+  width: 1566px;
   background-image: url("../img/jumbotron.png");
   background-size: cover;
-  position: relative;
+}
+
+.hero_container {
+  height: 533px;
 }
 
 .hero_content {
-  height: 333px;
-  width: 513px;
-  margin-top: 64px;
-  position: absolute;
+  padding: 64px 235px;
+  width: 65%;
 }
 
 .hero_content h1, p {
@@ -147,6 +148,19 @@ header {
   font-size: 12px;
 }
 /* /hero_container */
+
+/* nav_bottom */
+.nav_bottom {
+  height: 80px;
+  width: 1566px;
+  margin: auto;
+  background: #AFEBE4;
+  border-top: 3px solid #32495B;
+  border-bottom: 3px solid #32495B;
+}
+/* /nav_bottom */
+
+
 /* /header */
 
 /* main */
@@ -157,11 +171,13 @@ main {
   background: #AFEBE4;
 }
 
+/* section_center */
 .section_center {
   height: 1205px;
   width: auto;
   background: #F4F9FD;
 }
+/* /section_center */
 
 .section_data {
   height: 651px;
