@@ -21,6 +21,7 @@ body {
   padding: 22px 48px;
   background: #FE775A;
   color: white;
+  border-radius: 10px;
 }
 /* /Utility */
 
@@ -111,16 +112,41 @@ header {
 
 /* hero_container */
 .hero_container {
-  height: 566px;
+  height: 646px;
   width: 100%;
-  background: #FE775A;
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  position: relative;
 }
 
-.header_bottom {
-  height: 54px;
-  width: 100%;
-  background: #AFEBE4;
+.hero_content {
+  height: 333px;
+  width: 513px;
+  margin-top: 64px;
+  position: absolute;
 }
+
+.hero_content h1, p {
+  color: #32495B;
+}
+
+.hero_content h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 34px;
+}
+
+.hero_content p {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 55px;
+}
+
+.hero_content p:last-child {
+  margin-top: 55px;
+  font-size: 12px;
+}
+/* /hero_container */
 /* /header */
 
 /* main */
@@ -132,7 +158,7 @@ main {
 }
 
 .section_center {
-  height: 1405px;
+  height: 1205px;
   width: auto;
   background: #F4F9FD;
 }
