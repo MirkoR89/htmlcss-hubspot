@@ -17,7 +17,6 @@ body {
   clear: both;
 }
 
-
 .orange_button {
   padding: 22px 48px;
   background: #FE775A;
@@ -30,8 +29,6 @@ header {
   height: 796px;
   width: 1096px;
   margin: auto;
-  background: #F4F9FD;
-
 }
 
 /* .bg_nav_top {
@@ -40,19 +37,25 @@ header {
   margin: auto;
 } */
 
+/* nav_bar */
 .nav_top, .nav_main {
   height: 75px;
   width: 1096px;
+  background: #F4F9FD;
 }
 
+.nav_top {
+  border-bottom: 2px solid #96A4AF;
+}
+
+/* nav_top */
 .language_option, .log_in {
-  height: 34px;
-  margin-top: 20px;
   width: 50%;
+  line-height: 75px;
 }
 
-
-.language_option {
+.language_option span, a {
+  margin: 0 5px;
   color: #32495B;
 }
 
@@ -78,8 +81,35 @@ header {
   border-radius: 5px;
   cursor: pointer
 }
+/* /nav_top */
 
+/* nav_main */
+.nav_main {
+  background: white;
+}
 
+.logo, .menu {
+  height: 100%;
+  width: 50%;
+  line-height: 75px;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+
+.menu {
+  text-align: right;
+}
+
+.menu span {
+  color: #32495B;
+  margin: 0 5px;
+}
+/* /nav_main */
+/* /nav_bar */
+
+/* hero_container */
 .hero_container {
   height: 566px;
   width: 100%;
