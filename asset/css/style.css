@@ -211,18 +211,19 @@ main {
 
 .icon_button {
   height: 100%;
-  width: 390px;
+  width: 335px;
+  text-align: center;
 }
 
 .icon_box {
   height: 150px;
-  width: 335px;
-  margin: 40px 0 20px 0;
-
+  width: 150px;
+  margin: 20px;
 }
 
 .icon_button span {
-  margin: 0 72px 84px 90px;
+  display: block;
+  margin: 10px 70px;
 }
 
 .crm_text {
@@ -240,7 +241,6 @@ main {
   padding-right: 60px;
 
 }
-
 
 .hr_position hr {
   display: inline-block;
@@ -264,13 +264,44 @@ main {
   width: 335px;
   background: white;
   margin: 45px 0;
+  text-align: center;
+  color: #32495B;
 }
 
 .center_box {
   margin-left: 45px;
   margin-right: 45px;
-
 }
+
+.vertical_box h3 {
+  margin-bottom: 20px;
+}
+
+.vertical_box p {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.vertical_box hr {
+  width: 200px;
+  margin: 25px auto;
+}
+
+.vertical_box ul {
+  margin-bottom: 50px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.vertical_box ul > li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.vertical_box ul > li i {
+  color: #FE775A;
+}
+
 /* /section_center */
 
 .section_data {
@@ -279,9 +310,6 @@ main {
   background: #00A6BB;
 }
 
-.vertical_box ul > li {
-  list-style-type: none;
-}
 
 .section_brands {
   height: 668px;
