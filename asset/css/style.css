@@ -22,6 +22,11 @@ body {
   background: #FE775A;
   color: white;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.border_shadow {
+  box-shadow: 2px 2px 2px lightgrey;
 }
 /* /Utility */
 
@@ -198,6 +203,7 @@ main {
   padding: 33px 170px;
 }
 
+/* orizontal_box */
 .orizontal_box {
   height: 318px;
   background: white;
@@ -205,17 +211,54 @@ main {
 
 .icon_button {
   height: 100%;
-  width: 318px;
+  width: 390px;
 }
 
-.icon_button img {
-  height: 93px;
-  width: 128px;
+.icon_box {
+  height: 150px;
+  width: 335px;
+  margin: 40px 0 20px 0;
+
 }
 
 .icon_button span {
+  margin: 0 72px 84px 90px;
 }
 
+.crm_text {
+  height: 100%;
+  width: 630px;
+  padding-top: 70px;
+  color: #32495B;
+}
+
+.crm_text h3, p {
+  padding-bottom: 20px;
+}
+
+.hr_position span {
+  padding-right: 60px;
+
+}
+
+
+.hr_position hr {
+  display: inline-block;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+.check_list {
+  margin-top: 20px;
+}
+
+.check_list i {
+  color:#FE775A;
+  padding: 0 15px;
+}
+/* /orizontal_box */
+
+/* vertical_box */
 .vertical_box {
   height: 610px;
   width: 335px;
@@ -236,6 +279,10 @@ main {
   background: #00A6BB;
 }
 
+.vertical_box ul > li {
+  list-style-type: none;
+}
+
 .section_brands {
   height: 668px;
   width: 100%;
@@ -246,7 +293,7 @@ main {
 /* footer */
 footer {
   height: 576px;
-  width: 1096px;;
+  width: 1566px;;
   margin: auto;
   background: #32495B;
 
