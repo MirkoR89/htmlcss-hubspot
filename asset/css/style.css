@@ -132,7 +132,7 @@ body {
   width: 65%;
 }
 
-.hero_content h1, p {
+.hero_content h1, .hero_content p {
   color: #32495B;
 }
 
@@ -233,8 +233,13 @@ main {
   color: #32495B;
 }
 
-.crm_text h3, p {
+.crm_text h3, .crm_text p {
   padding-bottom: 20px;
+}
+
+.crm_text p, .hr_position span, .check_list {
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .hr_position span {
@@ -301,15 +306,69 @@ main {
 .vertical_box ul > li i {
   color: #FE775A;
 }
-
+.vertical_box ul > li, .vertical_box p {
+  font-size: 15px;
+  font-weight: 600;
+}
+/* /vertical_box */
 /* /section_center */
+
+/* section_data */
 
 .section_data {
   height: 651px;
   width: 100%;
   background: #00A6BB;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 175px;
 }
 
+.row {
+  height: 100%;
+  width: 720px;
+  margin: auto;
+}
+
+.row_box {
+  height: 200px;
+  width: 180px;
+  border-right: 1px solid white;
+}
+
+.row_box_up {
+  border-bottom: 1px solid white;;
+  margin-top: 50px;
+}
+
+.border_none {
+  border-right: none;
+}
+
+.row_box img {
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+}
+
+.section_data h2 {
+  width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.row_box > span {
+  width: 100%;
+  font-size: 30px;
+  display: block;
+  padding-top: 20px;
+}
+
+/* /section_data */
 
 .section_brands {
   height: 668px;
